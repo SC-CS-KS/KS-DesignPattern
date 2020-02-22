@@ -1,58 +1,51 @@
-# Design Patterns
+# 设计模式
 
-## [WhatIs](WhatIs.md)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-## [OOP DP](OOP/README.md)
-### Creational
-* Builder
-* Prototype
-* Factory 工厂方法模式
-* Abstract factory 抽象工厂模式
-* Singleton 单列模式
+Table of Content
+=================
 
-### Structural
-* Adapter
-* Bridge 桥接模式
-* Composite 组合模式
-* Decorator
-* Facade 外观模式
-* Flyweight 享元模式
-* Proxy 代理模式
-
-### Behavioral
-* Chain of responsibility 责任链模式 
-* Command 命令模式
-* Interpreter 解释器模式
-* Iterator 迭代子模式
-* Mediator 中介者模式
-* Memento 备忘录模式
-* State 状态模式
-* Observer 观察者模式
-* Strategy
-* Template method 模板方法模式
-* Visitor 访问者模式
-
-## [Resource-Pool DP](resource-pool/README.md)
-* [内存池](resource-pool/memory-pool/README.md)
-> * [对象池](resource-pool/object/README.md)
-
-* [连接池](resource-pool/connect-pool/README.md)
-> * [TCP 连接池](resource-pool/connect-pool/tcp-cp/README.md)
-> * [Socket 连接池](resource-pool/connect-pool/socket-cp/README.md)
-> * [HTTP 连接池](resource-pool/connect-pool/http-cp/README.md)
-> * [DB 连接池](https://github.com/SunnnyChan/knowledge-Sys-of-DB/tree/master/db-dev/CP)
-
-* 线程池
-> * [ThreadPoolExecutor](https://github.com/SunnnyChan/sc.drill-code/tree/master/java/java-framework/pool/thread-pool)
-
-## [并发模式](Concurrency/README.md)
-## Java
-* [Executor](https://github.com/SunnnyChan/sc.drill-code/tree/master/java/java-framework/pool/thread-pool)
-* [Disruptor](https://github.com/LMAX-Exchange/disruptor)
-* RxJava
-* Akka
-
-## 参考
-* [HowToDoInJava - Design Patterns](https://howtodoinjava.com/gang-of-four-java-design-patterns/)
-* [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
-
+   * [<a href="WhatIs.md">WhatIs</a>](#whatis)
+   * [<a href="OOP/README.md">OOP DP</a>](#oop-dp)
+      * [Creational](#creational)
+         * [Builder](#builder)
+         * [Prototype](#prototype)
+         * [Factory 工厂方法模式](#factory-工厂方法模式)
+         * [Abstract factory 抽象工厂模式](#abstract-factory-抽象工厂模式)
+         * [Singleton 单列模式](#singleton-单列模式)
+      * [Structural](#structural)
+         * [Adapter](#adapter)
+         * [Bridge 桥接模式](#bridge-桥接模式)
+         * [Composite 组合模式](#composite-组合模式)
+         * [Decorator](#decorator)
+         * [Facade 外观模式](#facade-外观模式)
+         * [Flyweight 享元模式](#flyweight-享元模式)
+         * [Proxy 代理模式](#proxy-代理模式)
+      * [Behavioral](#behavioral)
+         * [Chain of responsibility 责任链模式](#chain-of-responsibility-责任链模式)
+         * [Command 命令模式](#command-命令模式)
+         * [Interpreter 解释器模式](#interpreter-解释器模式)
+         * [Iterator 迭代子模式](#iterator-迭代子模式)
+         * [Mediator 中介者模式](#mediator-中介者模式)
+         * [Memento 备忘录模式](#memento-备忘录模式)
+         * [State 状态模式](#state-状态模式)
+         * [Observer 观察者模式](#observer-观察者模式)
+         * [Strategy](#strategy)
+         * [Template method 模板方法模式](#template-method-模板方法模式)
+         * [Visitor 访问者模式](#visitor-访问者模式)
+   * [<a href="resource-pool/README.md">Resource-Pool DP</a>](#resource-pool-dp)
+      * [<a href="resource-pool/memory-pool/README.md">内存池</a>](#内存池)
+         * [<a href="resource-pool/object/README.md">对象池</a>](#对象池)
+      * [<a href="resource-pool/connect-pool/README.md">连接池</a>](#连接池)
+         * [<a href="resource-pool/connect-pool/tcp-cp/README.md">TCP 连接池</a>](#tcp-连接池)
+         * [<a href="resource-pool/connect-pool/socket-cp/README.md">Socket 连接池</a>](#socket-连接池)
+         * [<a href="resource-pool/connect-pool/http-cp/README.md">HTTP 连接池</a>](#http-连接池)
+         * [<a href="https://github.com/SunnnyChan/knowledge-Sys-of-DB/tree/master/db-dev/CP">DB 连接池</a>](#db-连接池)
+      * [线程池](#线程池)
+         * [<a href="https://github.com/SunnnyChan/sc.drill-code/tree/master/java/java-framework/pool/thread-pool">ThreadPoolExecutor</a>](#threadpoolexecutor)
+   * [<a href="Concurrency/README.md">并发模式</a>](#并发模式)
+   * [Java](#java)
+      * [<a href="https://github.com/SunnnyChan/sc.drill-code/tree/master/java/java-framework/pool/thread-pool">Executor</a>](#executor)
+      * [<a href="https://github.com/LMAX-Exchange/disruptor">Disruptor</a>](#disruptor)
+      * [RxJava](#rxjava)
+      * [Akka](#akka)

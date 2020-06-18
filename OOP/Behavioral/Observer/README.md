@@ -24,7 +24,8 @@ Android开发：RxJava、Eventbus等等…
 * 具体被观察者 提供更新数据的方法  
 * 观察者->Observer 具体观察者  
 
-## 应用
+## 应用  
+
 ![大数据运维平台中的观察者模式](../_pic/observer-in-bigdata.png)
 
 
